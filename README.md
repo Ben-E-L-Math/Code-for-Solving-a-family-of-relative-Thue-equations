@@ -1,6 +1,8 @@
 # Code for Solving the Relative Thue Inequality $|F_t(X,Y)| \leq 1$
 
-This repository contains the **SageMath** computational scripts used to verify and establish bounds and constants for the proofs in an upcoming article based on my PhD thesis. The initial (rough but functional) versions of these scripts, used for my thesis, are viewable by anyone with a CoCalc.ai account, and be found here: https://cocalc.com/share/public_paths/f987f45c16aa187276215637a54169592a29b56c .
+This repository contains the **SageMath** computational scripts used to verify and establish bounds and constants for the proofs in an upcoming article based on my PhD thesis. Here is the DOI for this repository: [![DOI](https://zenodo.org/badge/1297999755.svg)](https://doi.org/10.5281/zenodo.21318149). 
+
+The initial (rough but functional) versions of these scripts, used for my thesis, are viewable by anyone with a CoCalc.ai account, and can be found here: https://cocalc.com/share/public_paths/f987f45c16aa187276215637a54169592a29b56c .
 
 The overarching goal of the work is to classify all non-trivial solutions to the relative Thue inequality:
 $$|F_t(X,Y)| \leq 1 \quad \text{where} \quad F_t(X,Y) = X^4 - tX^3Y - 6X^2Y^2 + tXY^3 + Y^4$$
