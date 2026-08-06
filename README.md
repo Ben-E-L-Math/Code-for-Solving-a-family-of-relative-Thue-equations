@@ -37,7 +37,7 @@ The scripts are organized to match the flow of the mathematical proofs in the th
 
 ## How to Run the Code
 
-Some of thse scripts are computationally intensive. By default, the heavy exhaustive search functions in these cases are disabled for quick testing. To run the full computations, change the `RUN_EXHAUSTIVE_SEARCH = False` flag to `True` at the top of the relevant script.
+Some of thse scripts are computationally intensive, and may take several dozen minutes. 
 
 ## Citations
 
