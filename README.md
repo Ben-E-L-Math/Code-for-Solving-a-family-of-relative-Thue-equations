@@ -1,8 +1,8 @@
 # Code for Solving the Relative Thue Inequality $|F_t(X,Y)| \leq 1$
 
-This repository contains the **SageMath** scripts used to verify and establish bounds and constants for the proofs in an upcoming article based on my PhD thesis. Here is the DOI for this repository: [![DOI](https://zenodo.org/badge/1297999755.svg)](https://doi.org/10.5281/zenodo.21318149). 
+This repository contains the **SageMath** scripts used to verify and establish bounds and constants for the proofs in an upcoming article, based on parts of the PhD thesis of the first listed author. Here is the DOI for this repository: [![DOI](https://zenodo.org/badge/1297999755.svg)](https://doi.org/10.5281/zenodo.21318149).
 
-The initial (rough but functional) versions of these scripts, used for my thesis, are viewable by anyone with a CoCalc.ai account, and can be found here: https://cocalc.com/share/public_paths/f987f45c16aa187276215637a54169592a29b56c .
+For the versions of the scripts in this repository, Google Gemini Pro was used to perform an audit of rough code, for the purpose of improving presentation and readability. The initial (rough but functional) versions of these scripts, which were used for the aforementioned thesis and for which no AI was employed, are viewable by anyone with a CoCalc.ai account, and can be found here: https://cocalc.com/share/public_paths/f987f45c16aa187276215637a54169592a29b56c .
 
 The overarching goal of the work is to classify all non-trivial solutions to the relative Thue inequality:
 $$|F_t(X,Y)| \leq 1 \quad \text{where} \quad F_t(X,Y) = X^4 - tX^3Y - 6X^2Y^2 + tXY^3 + Y^4$$
@@ -16,7 +16,7 @@ The code classifies Galois groups, bounds the indices of unit groups, and applie
 
 ## File Structure
 
-The scripts are organized to match the flow of the mathematical proofs in the thesis.
+The scripts are organized to match the flow of the proofs in the article.
 
 ### Chapter 2: Establishing Lower Bounds
 * **`Chapter_2_small_solutions_search.ipynb`** Executes an exhaustive search over imaginary quadratic integers to find all solutions with $\min\{|x|, |y|\} \leq 40$. This establishes the baseline lower bound required for the later continued fraction reductions. Uses norm divisor properties and symmetries of the equation to restrict the values that need to be checked.
@@ -41,7 +41,7 @@ Some of thse scripts are computationally intensive, and may take several dozen m
 
 ## Citations
 
-If you use this code in your research, please cite my PhD thesis (until the article is available on arXiv, I will edit this file to add the link to that when it is available). You can use the following BibTeX entry:
+For references, please cite the following (until the article is available on arXiv, this file will be edited to add the link to that when it is available):
 
 ```bibtex
 @phdthesis{B.Earp-Lynch2026thesis,
